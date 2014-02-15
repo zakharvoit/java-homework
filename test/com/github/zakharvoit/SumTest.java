@@ -1,9 +1,10 @@
 package com.github.zakharvoit;
 
-import junit.framework.Assert;
 import org.junit.Test;
 
-public class SumTest extends Assert {
+import static junit.framework.Assert.assertEquals;
+
+public class SumTest {
     @Test
     public void test1() throws Exception {
         assertEquals(6, Sum.solve(new String[]{"1", "2", "3"}));
