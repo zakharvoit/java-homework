@@ -1,7 +1,7 @@
 package com.github.zakharvoit;
 
 /**
- * Task 1 (http://www.kgeorgiy.info/courses/java-intro/homeworks.html)
+ * Task 1 (http://www.kgeorgiy.info/courses/java-intro/homeworks.html#homework-1)
  * <p/>
  * Gets numbers as command line arguments and returns their sum.
  *
