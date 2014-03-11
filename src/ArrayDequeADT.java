@@ -1,8 +1,6 @@
 /**
- * Array deque implemented as an ADT.
- * http://www.kgeorgiy.info/courses/java-intro/homeworks.html#homework-3
- *
- * @author Zakhar Voit (zakharvoit@gmail.com)
+ * Inv:
+ * size >= 0
  */
 public class ArrayDequeADT {
     static private final int DEFAULT_SIZE = 2;

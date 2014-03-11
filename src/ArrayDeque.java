@@ -1,8 +1,6 @@
 /**
- * Array deque implemented as a class.
- * http://www.kgeorgiy.info/courses/java-intro/homeworks.html#homework-3
- *
- * @author Zakhar Voit (zakharvoit@gmail.com)
+ * Inv:
+ * size >= 0
  */
 public class ArrayDeque {
     private final int DEFAULT_SIZE = 2;
@@ -39,7 +37,7 @@ public class ArrayDeque {
         front = mod(front - 1, arr.length);
         Object res = arr[front];
         arr[front] = null;
-        --size;
+        size--;
 
         return res;
     }
@@ -136,7 +134,7 @@ public class ArrayDeque {
 
     private int mod(int a, int b) {
         if (a < 0) {
-            a += b;
+            a = (a % b) + b;
         }
 
         return a % b;
