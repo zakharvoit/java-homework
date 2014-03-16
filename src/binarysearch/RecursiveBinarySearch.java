@@ -1,3 +1,5 @@
+package binarysearch;
+
 /**
  * http://www.kgeorgiy.info/courses/java-intro/homeworks.html#homework-2
  *

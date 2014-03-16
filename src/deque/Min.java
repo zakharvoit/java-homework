@@ -1,3 +1,5 @@
+package deque;
+
 /**
  * Provides function for searching minimal value on ArrayDeque.
  *

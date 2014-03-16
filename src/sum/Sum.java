@@ -1,3 +1,5 @@
+package sum;
+
 /**
  * Task 1 (http://www.kgeorgiy.info/courses/java-intro/homeworks.html#homework-1)
  * <p/>
