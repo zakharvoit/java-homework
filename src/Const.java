@@ -1,7 +1,7 @@
 /**
  * @author Zakhar Voit (zakharvoit@gmail.com)
  */
-public class Const implements Expression {
+public class Const implements Expression3 {
     final private int value;
 
     public Const(int value) {
@@ -9,7 +9,7 @@ public class Const implements Expression {
     }
 
     @Override
-    public int evaluate(int value) {
+    public double evaluate(double x, double y, double z) {
         return this.value;
     }
 }

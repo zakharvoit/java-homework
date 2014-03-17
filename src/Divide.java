@@ -2,12 +2,12 @@
  * @author Zakhar Voit (zakharvoit@gmail.com)
  */
 public class Divide extends BinaryExpression {
-    public Divide(Expression left, Expression right) {
+    public Divide(Expression3 left, Expression3 right) {
         super(left, right);
     }
 
     @Override
-    public int evaluate(int value) {
-        return left.evaluate(value) / right.evaluate(value);
+    public double evaluate(double x, double y, double z) {
+        return left.evaluate(x, y, z) / right.evaluate(x, y, z);
     }
 }

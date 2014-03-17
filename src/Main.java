@@ -3,13 +3,13 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(calculate(Integer.parseInt(args[0])));
+        System.out.println(calculate(Double.parseDouble(args[0])));
     }
 
     /**
      * Calculates x^2 - 2x + 1
      */
-    public static int calculate(int x) {
+    public static double calculate(double x) {
         return new Add(
                 new Subtract(
                         new Multiply(
@@ -19,6 +19,6 @@ public class Main {
                                 new Const(2),
                                 new Variable("x"))
                 ),
-                new Const(1)).evaluate(x);
+                new Const(1)).evaluate(x, 0, 0);
     }
 }
