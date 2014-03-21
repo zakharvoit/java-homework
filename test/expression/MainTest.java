@@ -1,3 +1,5 @@
+package expression;
+
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -8,6 +10,6 @@ import static junit.framework.Assert.assertEquals;
 public class MainTest {
     @Test
     public void testCalculate() throws Exception {
-        assertEquals(9, Main.calculate(4));
+        assertEquals(9.0, Main.calculate(4));
     }
 }
